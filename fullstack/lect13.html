@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Model </title>
+    <style>
+        *{
+            margin: 20;
+            padding: 0;
+            box-sizing: 0;
+        }
+        .container1{
+            /* border-width: 30px;
+            border-style: solid;
+            border-color: red; */
+            border:2px solid red;
+            height: 50vh;
+            width: 50vw;
+             margin-bottom :30px;
+            /*margin-top:40px;
+            margin-left:60px;
+            margin:50px 40px 30px 20px; */
+            padding: 30px;
+        }
+        .container2{
+            border:2px solid black;
+            height:30vh;
+            width:30vw;
+        }
+        .container3{
+            box-sizing: content-box;
+            border: 2px solid red;
+            height:30vh;
+            width: 20vw;
+            margin: 20px;
+            
+        }
+        .container4{
+            border: 2px solid purple;
+            box-sizing: border-box;
+            height:50vh;
+            width:20vw;
+        }
+    </style>
+</head>
+<body>
+    <!-- margin,padding,border,boxSizing -->
+     <div class="container1">horthand for setting all four margins: top, right, bottom, and left respectively. It overrides the individual margin properties set before it.)
+        The second set for .container2 does not have any margin properties.
+        In summary, the main differences are in the border properties and the presence of margin properties in .container1 but not in .container2. If you need any further clarification or adjustments, feel free to ask!</div>
+     <div class="container2"></div>
+     <div class="container3"></div>
+     <div class="container4"></div>
+    
+</body>
+</html>

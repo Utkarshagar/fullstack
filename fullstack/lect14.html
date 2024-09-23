@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position_Property</title>
+    <!-- static 
+    absolute 
+    relative
+    fixed -->
+    <style>
+        .main{
+        border:2px solid red;
+        height: 1200px;
+        width:80vw;
+        position: relative;
+
+    }
+    .container{
+        border: 2px solid brown;
+        height: 70%;
+        width: 70%;
+        margin: 30px;
+        position: relative;
+        
+    }
+    
+    .item{
+        border: 3px solid yellow ;
+        width: 100px;
+        height:100px ;
+    }
+    #item2{
+        position: absolute;
+        left: 120px;
+        bottom: 10px;
+    }
+    #item1{
+        position: sticky;
+        top: 20px;
+    }
+    
+
+    </style>
+    
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="item" id="item1">item1</div>
+        <div class="item" id="item2">item2</div>
+        <div class="item" id="item3">item3</div>
+        </div>
+        
+
+
+    </div>
+
+    
+</body>
+</html>

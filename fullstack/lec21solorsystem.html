@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid red;
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+        }
+        .orbit0{
+            border: 2px solid white;
+            height: 300px;
+            width: 300px;
+            animation-name: solar;
+            border-radius:50% ;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .planet0{
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            border-radius:50% ;
+            background-image: linear-gradient(to left,blue,purple);
+
+        }
+        .sun{
+            border: 2px solid black;
+            background-image: linear-gradient(to left,red,yellow);
+            height: 100px;
+            width: 100px;
+            border-radius:50% ;
+            position: relative;
+            left: 100px;
+            right: 100px;
+
+        }
+        .orbit1{
+            border: 2px solid white;
+            height: 600px;
+            width: 600px;
+            animation-name: solar;
+            border-radius:50% ;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+        }
+        .planet1{
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            border-radius:50% ;
+            background-image: linear-gradient(to left,green,yellow);
+
+        }
+        @keyframes solar{
+            from{
+                transform: rotate(0deg);
+
+            }
+            to{
+                transform: rotate(360deg);
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="orbit">
+            <div class="planet">
+                
+            </div>
+            <div class="sun"></div>
+        </div> -->
+        <div class="orbit1">
+            <div class="planet1">
+                
+            </div>
+            <div class="orbit0">
+                <div class="planet0">
+                    
+                </div>
+                <div class="sun"></div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container {
+            display: grid;
+            border: 2px solid red;
+            height: 100vh;
+            width: 100%; /* Added unit */
+            grid-template-columns: 200px 200px;
+        }
+        .box {
+            border: 2px solid black; /* Added styling for boxes */
+        }
+        #box1{
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+        <div class="box" id="box4">box4</div>
+        <div class="box" id="box5">box5</div>
+    </div>
+</body>
+</html>

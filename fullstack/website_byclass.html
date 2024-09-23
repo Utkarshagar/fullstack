@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            display:flex;
+            /* border: 2px solid black; */
+            height:15vh;
+        }
+        .child1{
+            /* border: 2px solid blue; */
+            width: 50%;
+            margin: 3px;
+            padding-left: 30px;
+        }
+        .child2{
+            display:flex;
+            /* border: 2px solid blue; */
+            width: 50%;
+            margin: 3px;
+            justify-content:space-evenly;
+            align-items: center;
+        }
+        .container{
+            /* border: 3px solid purple; */
+            border-bottom: 2px solid black;
+            border-top: 2px solid black;
+            height:70vh;
+            display: flex;
+            margin-bottom: 3px;
+        }
+        .child3{
+            /* border: 2px solid blue; */
+            width: 65%;
+            margin: 3px;
+        }
+        .child4{
+            /* border: 2px solid blue; */
+            width: 45%;
+            margin: 3px;
+            
+            
+            
+        }
+        
+        .footer{
+            display: flex;
+            justify-content: center;
+            /* border: 2px solid green; */
+            height: 10vh;
+        }
+        .footer a{
+            display: flex;
+            /* flex-direction: column; */
+            /* justify-content: sp; */
+            /* align-items: center; */
+            padding-left: 18px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        a:hover{
+            text-decoration: none;
+            color: black;
+        }
+        #btn{
+            background-color: black;
+            padding: 10px 20px;
+            border-radius: 40px;
+            
+            color: white;
+        }
+        #text{
+            padding-left: 50px;
+            font-weight: lighter;
+            font-size: 25px;
+        }
+        .heading{
+            padding-left: 50px;
+            font-size: 70px;
+        }
+        #bt{
+            border-radius: 40px;
+            background-color: black;
+            color: white;
+            padding: 15px 15px;
+            position: relative;
+            left: 50px;
+            top:20px
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1></h1>
+        <div class="child1"><h1>Medium</h1></div>
+        <div class="child2">
+            <a href="">Our Story</a>
+            <a href="">Membership</a>
+            <a href="">Write</a>
+            <a href="">Sign in</a>
+            <a href="" id="btn">Get Started</a>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="child3">
+            <h1 class="heading"><strong>Human <br> stories & ideas</strong></h1>
+<h3 id="text">A place to read, write, and deepen your understanding</h3>
+<a href="" id="bt">start reading</a>
+
+        </div>
+        <div class="child4">
+            <img src="3.jpg" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        <a href="">Help</a>
+        <a href="">Status</a>
+        <a href="">About</a>
+        <a href="">Careers</a>
+        <a href="">Press</a>
+        <a href="">Blog</a>
+        <a href="">Privacy</a>
+        <a href="">Terms</a>
+        <a href="">Next to Speech</a>
+        <a href="">Conditions</a>
+    </div>
+</body>
+</html>

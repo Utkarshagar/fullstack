@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            /* border: 2px solid black; */
+            height: 100px;
+            width: 100px;
+            
+            
+            
+        }
+        .div1:hover{
+            transform: rotate(4deg);
+            background-color: aqua;
+
+        }
+        .div2:hover{
+            transform: scale(2) rotate(5deg);
+
+        }
+        .div3{
+            /* transform: translate(100px,100px); */
+            transform: rotate3d(1,0,0,45deg);
+
+        }
+        .div4{
+            transform: skew(40deg) rotate3d(0,0,1,60deg);
+
+        }
+        .div5:hover{
+            transform:translate(100px,100px)  scale(2);
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="div1" ></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+    <div class="div5"><p>helloword</p></div>
+    
+</body>
+</html>
